@@ -1,4 +1,4 @@
-package writeDB;
+package dbHelper;
 
 
 import dto.PeriodDTO;
@@ -6,7 +6,7 @@ import dto.PeriodDTO;
 import java.util.ArrayList;
 import java.util.List;
 
-public class fileActs {
+public class DBHelper {
     public void writeToDB(long processId, String creatorName, String sourceFileName, String targetFileName, String action, String status, String log){
 
     }
