@@ -16,9 +16,9 @@ public class DBHelper {
         return targetFileName;
     }
 
-    public String getStatusOfAct(long processId, String sourceFileName){
+    public String getStatusOfAct(long processId, String targetFileName){
 
-        return sourceFileName;
+        return targetFileName;
     }
     public String getPathOfFile(long processId, String targetFileName){
 
@@ -29,5 +29,17 @@ public class DBHelper {
 
         return new ArrayList<>();
     }
+
+    public List<String> getFilesCreatedInPeriodAndUserName(PeriodDTO searchPeriod, String userName){
+
+        return new ArrayList<>();
+    }
+
+    public List<String> getFilesCreatedInPeriodAndStatus(PeriodDTO searchPeriod, String status){
+
+        return new ArrayList<>();
+    }
+
+
 
 }
