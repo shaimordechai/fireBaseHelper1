@@ -1,10 +1,16 @@
 package dto;
 
+
 import java.util.Date;
 
 public class PeriodDTO {
     private Date from;
     private Date to;
+
+    public PeriodDTO(Date from, Date to){
+        this.from = from;
+        this.to = to;
+    }
 
     public Date getFrom() {
         return from;
