@@ -13,12 +13,27 @@
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.firebase</groupId>
-            <artifactId>firebase-client</artifactId>
-            <version>1.0.4</version>
-        </dependency>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>bintray</name>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.bane73</groupId>
+        <artifactId>firebase4j</artifactId>
+        <version>1836d7bbf2</version>
+    </dependency>
 
         <dependency>
             <groupId>com.google.code.gson</groupId>
