@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class UserDTO {
-    private Long id;
+    private String id;
     private String name;
 
-    public UserDTO(long id, String name){
+    public UserDTO(String id, String name){
         this.id = id;
         this.name = name;
     }
@@ -19,11 +19,11 @@ public class UserDTO {
         return res;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
